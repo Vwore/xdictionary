@@ -36,6 +36,7 @@ function App() {
           onChange={(e) => {
             setWord(e.target.value);
           }}
+          type="text"
         ></input>
         <button type="submit">Search</button>
       </form>
