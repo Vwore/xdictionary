@@ -12,7 +12,7 @@ const dictionary = [
 ];
 
 function App() {
-  const [word, setWord] = useState();
+  const [word, setWord] = useState('');
   const [definition, setDefinition] = useState("");
   function handleSearch(word) {
     const i = dictionary.findIndex(
